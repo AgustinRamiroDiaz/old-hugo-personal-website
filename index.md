@@ -6,25 +6,25 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The code is written in Markdown and converted to HTML by Jekill mentioned before
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Vinilo en una botella de agua:
+- Ama
+- Vive
+- Ríe
 
-- Bulleted
-- List
+### Top 9 números del 1 al 9
+1. 7
+2. 2
+3. 5
+4. 8
+5. 1
+6. 3
+7. 4
+8. 9
+9. 6
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
