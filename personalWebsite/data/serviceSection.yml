@@ -23,7 +23,7 @@ service:
       #### Front-end Web Development 
 
       I started web development working with [Angular](https://angular.io/) (Typescript, JavaScript, HTML and CSS) 
-      developing the Distribution Management System for Naturgy (MX).
+      developing the Distribution Management System for Naturgy (MX) at SZICOM.
       
       
       Then I had an idea for a [game](https://agustinramirodiaz.github.io/Guess-Color-Names/) about guessing 
@@ -32,14 +32,21 @@ service:
 
 
       At the time, my latest project is this personal website. I'm following the [Jamstack](https://jamstack.org/) architecture, 
-      thus using [GitHub](https://github.com/) as the [CDN](https://jamstack.org/glossary/cdn/) and 
-      [Hugo](https://gohugo.io/) as the [SSG](https://jamstack.org/glossary/ssg/)
+      using [GitHub](https://github.com/) as the [CDN](https://jamstack.org/glossary/cdn/) and 
+      [Hugo](https://gohugo.io/) as the [SSG](https://jamstack.org/glossary/ssg/).
     image: images/service/web.svg
   - content: >
-      #### Creative Design 
+      #### Back-end Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I worked in back-end developing the Distribution Management System for Naturgy (MX) at SZICOM.
+      We started the project from scratch:
+        * Communicating with the client 
+        * Database modeling and implementation
+        * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) [API](https://en.wikipedia.org/wiki/API)
+          with Microsoft's [.Net Core](https://es.wikipedia.org/wiki/.NET_Core) framework.
+      
+      And ended up with the complete product.
+
     image: images/service/creative.svg
   - content: >
       #### Branding
