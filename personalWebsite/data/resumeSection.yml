@@ -15,44 +15,70 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Master in Arts
+      #### Bachelor in Computer Science
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      Currently attending 4th year
+
+
+      FCEIA - UNR
+    time: 2018-Today
   - content: >
-      #### Master in Arts
+      #### Bachelor in Exact Sciences
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      FCEIA - UNR
+    time: 2018-2020
   - content: >
-      #### Master in Arts
+      #### Construction Technician
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      Instituto Politécnico Superior, General San Martín
+    time: 2012-2017
 
 experience:
   - content: >
-      #### Umbrella co. 
+      #### Full Stack Web Developer 
+      
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      I was able to keep up with a team of Senior Developers with over 10 years of experience at 
+      [SZICOM](https://www.szicom.com.ar/).
+      We developed the web app "Distribution Management System" for Naturgy (MX).    
+        * Backend Development:
+          * C#
+          * Net Core
+          * Entity Framework Core
+          * SQL Server
+          * Visual Studio
+        * Frontend Development:
+          * Angular
+          * HTML + CSS
+          * TypeScript
+          * JavaScript
+          * Visual Studio Code
+        * Agile methodologies
+        * Unit and Integration Testing
+        * CI/CD
+        * Design Patterns
+        * Tools:
+          * Atlassian Package (Jira, Confluence, BitBucket, SourceTree)
+          * Jenkins
+          * GIT
+          * RabbitMQ
+          * Robot Framework
+
+    time: 2019-2020
   - content: >
-      #### Aperture Science 
+      #### Educational Robotics Teacher
+      
+      [Taller Big Bang](https://www.facebook.com/bigbangtaller/) 
+      was a science institute for children where we taught 3 courses:
+        * Educational robotics with [LEGO Education](https://education.lego.com/en-us/)
+          * LEGO WeDo (6-8 years)
+          * LEGO Mindstorms (9-11 years)
+        * Video Game creation
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+    time: 2018-2018
   - content: >
-      #### ACME Inc. 
+      #### Construction Technician - Internship 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
-  - content: >
-      #### LexCorp 
+      BBZ
+    time: 2017-2017
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
