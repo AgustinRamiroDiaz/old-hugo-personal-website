@@ -9,9 +9,11 @@ title: >
 
   Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
 tab1Name: Education
-tab2Name: Experiences
+tab2Name: Experience
+tab3Name: Extras
 tab1Target: education
 tab2Target: experience
+tab3Target: extras
 
 education:
   - content: >
@@ -81,4 +83,28 @@ experience:
 
       BBZ
     time: 2017-2017
+
+extras:
+  - content: >
+      #### QWorld Global Quantum Programming Workshop | [QBronze](https://qworld.lu.lv/index.php/workshop-bronze/)
+
+      Introductory level workshop series on the basics of quantum computing 
+      and quantum programming using Jupyter notebooks.
+
+      The Bronze has five main sections
+        * Basics of classical systems (Probabilistic bits, coin-flipping, biased coins, probabilistic states, and probabilistic operators, correlation)
+        * Basics of quantum systems (Quantum programs as circuits: registers, gates, measurements, execution, and reading the outcomes, quantum state and operators)
+        * Quantum operators on a quantum bot
+        * Entanglement and basics quantum protocols
+        * Quantum search algorithm
+  - content: >
+      #### Artificial Intelligence
+
+      I've always been curious about AI, so I took open courses from Stanford, MIT, OpenAI, FastAI 
+      using Pytorch and TensorFlow on topics such as Computer Vision and Reinforcement Learning. 
+      I'm familiar with various architectures (RNN, LSTM, Transformers, CNN, Generative Models such as VAE and GAN).
+  - content: >
+      #### Unity 3D
+
+      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine.
 
