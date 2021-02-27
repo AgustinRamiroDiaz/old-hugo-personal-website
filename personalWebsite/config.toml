@@ -61,8 +61,8 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "agustin.ramiro.diaz@example.com"
+address = "Rosario, Argentina"
+email = "agustin.ramiro.diaz@gmail.com"
 openingHours = "Normal day at GMT-3 Time Zone"
 phone = "+(54) 341 394 3048"
 
@@ -74,18 +74,11 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-github-square"
+url = "https://github.com/AgustinRamiroDiaz"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+url = "https://www.linkedin.com/in/agust%C3%ADn-ramiro-d%C3%ADaz-bb0387184/"
 weight = 2
-[[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
-weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
+
