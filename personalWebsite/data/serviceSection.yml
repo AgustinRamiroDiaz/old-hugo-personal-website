@@ -2,22 +2,38 @@
 enable: true
 topTitle: Working Area
 title: >
-  ## Creative Services
+  ## My working areas
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  I've gained experience in various fields of programming throughout my years as a developer.
 service:
   - content: >
-      #### UI/UX Design 
+      #### Code practices
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      * Clean Code
+
+      * [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+      * [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle
+
+      * [SOLID](https://en.wikipedia.org/wiki/SOLID) principles of OOP
+
+      * [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
     image: images/service/ui-ux.svg
   - content: >
-      #### Web Development 
+      #### Front-end Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I started web development working with [Angular](https://angular.io/) (Typescript, JavaScript, HTML and CSS) 
+      developing the Distribution Management System for Naturgy (MX).
+      
+      
+      Then I had an idea for a [game](https://agustinramirodiaz.github.io/Guess-Color-Names/) about guessing 
+      color names which I developed using vanilla JavaScript, HTML and CSS (with the help of [Bootstrap](https://getbootstrap.com/)).
+      Once it was finished I played with it incorporating a bit of [Vue](https://vuejs.org/) to the project.
+
+
+      At the time, my latest project is this personal website. I'm following the [Jamstack](https://jamstack.org/) architecture, 
+      thus using [GitHub](https://github.com/) as the [CDN](https://jamstack.org/glossary/cdn/) and 
+      [Hugo](https://gohugo.io/) as the [SSG](https://jamstack.org/glossary/ssg/)
     image: images/service/web.svg
   - content: >
       #### Creative Design 
@@ -31,15 +47,3 @@ service:
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
