@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://agustinramirodiaz.github.io/"
 relativeURLs = true
 uglyURLs = true
 languageCode = "en-us"
