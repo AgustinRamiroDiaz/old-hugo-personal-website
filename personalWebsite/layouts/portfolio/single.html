@@ -28,7 +28,7 @@
           <h1>{{ .Title }}</h1>
         </div>
         <p>
-          {{ .Params.shortDescription }}
+          {{ .Params.shortDescription | markdownify }}
         </p>
         <div class="case-details-info">
           <div class="case-details-info-item">
@@ -41,7 +41,7 @@
           </div>
           <div class="case-details-info-item">
             <h5>Date</h5>
-            <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
+            <p>{{ .PublishDate.Format "January, 2006" }}</p>
           </div>
         </div>
         <div class="row mb-5">
@@ -49,7 +49,7 @@
             <div class="case-details-service">
               <h3>Challenge</h3>
               <p>
-                {{ .Params.challenge }}
+                {{ .Params.challenge | markdownify }}
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@
             <div class="case-details-service">
               <h3>Solution</h3>
               <p>
-                {{ .Params.solution }}
+                {{ .Params.solution | markdownify }}
               </p>
             </div>
           </div>
