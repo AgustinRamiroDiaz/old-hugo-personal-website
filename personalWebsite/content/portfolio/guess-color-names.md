@@ -14,8 +14,7 @@ challenge: I got the inspiration when I was at a paint shop with my SO, reading
   The only thing left I needed to achieve it was a color names database.
 solution: Researching on Internet, I came across 
   across [handpicked color names](https://github.com/meodai/color-names) and used their API. 
-  I wanted the game to be avaiable for anyone to play in any device, so I made it
-  web. I used vanila JS, HTML and CSS (with Bootstrap) because I wanted to make it lightweight. Then I switched from the API to a local JS file for a better UX. 
+  I wanted the game to be avaiable for anyone to play in any device, so I made it web (hested on GitHub Pages). I used vanila JS, HTML and CSS (with Bootstrap) because I wanted to make it lightweight. Then I switched from the API to a local JS file for a better UX. 
 
 
   When it was finished, I played a bit incorporating [Vue.js](https://vuejs.org/) into the project just to try it out.
