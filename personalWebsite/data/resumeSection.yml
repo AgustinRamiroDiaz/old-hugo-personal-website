@@ -1,0 +1,112 @@
+---
+enable: true
+topTitle: My Resume
+title: >
+  ## My Expertises
+
+  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+
+
+  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
+tab1Name: Education
+tab2Name: Experience
+tab3Name: Extras
+tab1Target: education
+tab2Target: experience
+tab3Target: extras
+
+education:
+  - content: >
+      #### Bachelor in Computer Science
+
+      Currently attending 4th year
+
+
+      FCEIA - UNR
+    time: 2018-Today
+  - content: >
+      #### Bachelor in Exact Sciences
+
+      FCEIA - UNR
+    time: 2018-2020
+  - content: >
+      #### Construction Technician
+
+      Instituto Politécnico Superior, General San Martín
+    time: 2012-2017
+
+experience:
+  - content: >
+      #### Full Stack Web Developer 
+      
+
+      I was able to keep up with a team of Senior Developers with over 10 years of experience at 
+      [SZICOM](https://www.szicom.com.ar/).
+      We developed the web app "Distribution Management System" for Naturgy (MX).    
+        * Backend Development:
+          * C#
+          * Net Core
+          * Entity Framework Core
+          * SQL Server
+          * Visual Studio
+        * Frontend Development:
+          * Angular
+          * HTML + CSS
+          * TypeScript
+          * JavaScript
+          * Visual Studio Code
+        * Agile methodologies
+        * Unit and Integration Testing
+        * CI/CD
+        * Design Patterns
+        * Tools:
+          * Atlassian Package (Jira, Confluence, BitBucket, SourceTree)
+          * Jenkins
+          * GIT
+          * RabbitMQ
+          * Robot Framework
+
+    time: 2019-2020
+  - content: >
+      #### Educational Robotics Teacher
+      
+      [Taller Big Bang](https://www.facebook.com/bigbangtaller/) 
+      was a science institute for children where we taught 3 courses:
+        * Educational robotics with [LEGO Education](https://education.lego.com/en-us/)
+          * LEGO WeDo (6-8 years)
+          * LEGO Mindstorms (9-11 years)
+        * Video Game creation
+
+    time: 2018-2018
+  - content: >
+      #### Construction Technician - Internship 
+
+      BBZ
+    time: 2017-2017
+
+extras:
+  - content: >
+      #### QWorld Global Quantum Programming Workshop | [QBronze](https://qworld.lu.lv/index.php/workshop-bronze/)
+
+      Introductory level workshop series on the basics of quantum computing 
+      and quantum programming using Jupyter notebooks.
+
+      The Bronze has five main sections
+        * Basics of classical systems (Probabilistic bits, coin-flipping, biased coins, probabilistic states, and probabilistic operators, correlation)
+        * Basics of quantum systems (Quantum programs as circuits: registers, gates, measurements, execution, and reading the outcomes, quantum state and operators)
+        * Quantum operators on a quantum bot
+        * Entanglement and basics quantum protocols
+        * Quantum search algorithm
+  - content: >
+      #### Artificial Intelligence
+
+      I've always been curious about AI, so I took open courses from Stanford, MIT, OpenAI, FastAI 
+      using Pytorch and TensorFlow on topics such as Computer Vision and Reinforcement Learning. 
+      I'm familiar with various architectures (RNN, LSTM, Transformers, CNN, Generative Models such as VAE and GAN).
+  - content: >
+      #### Unity 3D
+
+      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine with C#.
+      I followed tutorials from [Brackeys](https://brackeys.com/) and [Unity Learn](https://learn.unity.com/).
+
+
