@@ -4,14 +4,10 @@ topTitle: My Skills
 content: >
   ## Why work with me?
 
-  My curiosity and interest makes me a self learner with motivation. 
-  I acquire new knowledge rapidly, digging through multiple resources to achieve my goals.
-image: images/skill/skill_image.svg
+  My curiosity and interest make me a self-taught with motivation. 
+  I acquire new knowledge rapidly, exploring multiple resources to achieve my goals.
+  
 
-skill:
-  - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
-    percent: 85
+  I am able to fit in at workplaces thanks to my communication and teamwork,
+  and my critical thinking is highly valued by coworkers.
+image: images/skill/skill_image.svg

@@ -7,19 +7,6 @@ title: >
   I've gained experience in various fields of programming throughout my years as a developer.
 service:
   - content: >
-      #### Code practices
-
-      * Clean Code
-
-      * [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
-
-      * [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle
-
-      * [SOLID](https://en.wikipedia.org/wiki/SOLID) principles of OOP
-
-      * [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
-    image: images/service/ui-ux.svg
-  - content: >
       #### Front-end Web Development 
 
       I started web development working with [Angular](https://angular.io/) (Typescript, JavaScript, HTML and CSS) 
@@ -44,13 +31,31 @@ service:
         * Database modeling and implementation
         * [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) [API](https://en.wikipedia.org/wiki/API)
           with Microsoft's [.Net Core](https://es.wikipedia.org/wiki/.NET_Core) framework.
-      
+        * Unit and Integration testing
+
       And ended up with the complete product.
 
     image: images/service/creative.svg
   - content: >
-      #### Branding
+      #### Software Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I've worked with [CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipelines
+      in an [agile](https://en.wikipedia.org/wiki/Agile_software_development) model working enviroment.
+
+      
+      I recently started learning GitHub Actions, which I am currently using
+      to automatically deploy this static web site.
     image: images/service/branding.svg
+  - content: >
+      #### Code practices
+
+      * Clean Code
+
+      * [Design patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
+
+      * [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle
+
+      * [SOLID](https://en.wikipedia.org/wiki/SOLID) principles of OOP
+
+      * [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+    image: images/service/ui-ux.svg
