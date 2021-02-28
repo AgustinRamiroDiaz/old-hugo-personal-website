@@ -1,4 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "/"
+relativeURLs = true
+uglyURLs = true
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
