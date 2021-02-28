@@ -106,5 +106,7 @@ extras:
   - content: >
       #### Unity 3D
 
-      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine.
+      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine with C#.
+      I followed tutorials from [Brackeys](https://brackeys.com/) and [Unity Learn](https://learn.unity.com/).
+
 
