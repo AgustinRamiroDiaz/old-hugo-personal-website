@@ -63,7 +63,7 @@ googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 logo = "images/site-navigation/logo.png"
 
 [params.contact]
-address = "Rosario, Argentina"
+address = "Rosario, Santa Fe, Argentina"
 email = "agustin.ramiro.diaz@gmail.com"
 openingHours = "Normal day at GMT-3 Time Zone"
 phone = "+(54) 341 394 3048"
