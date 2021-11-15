@@ -36,6 +36,49 @@ education:
 
 experience:
   - content: >
+      #### Data Science member
+      
+      I had the incredible opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics at [Héritas](https://heritas.com.ar/), a genetics based presicion medicine company. 
+      
+
+      Despite the name of the area and the specialties among the team, our responsibilites were many and diverse. We were like a swiss army knife, all tasks related to informatics were in our hands. That's why we were able to work with a lot of different technologies and languages such as: 
+        * Dev Ops:
+          * Docker
+          * Server management (of our own servers with CentOS and Ubuntu)
+          * Third party cloud service providers (Digital Ocean, Google Cloud)
+        * Programming languages:
+          * Bash for running scripts and pipelines
+          * Python 
+            * API connections 
+              * We took advantage of JIRA's issues workflow and took it to its limits to manage our process workflow. 
+            * Data analysis and manipulation
+              * Pandas
+              * Numpy
+          * R 
+            * Along with its web framework, Shiny
+              * We built all our main web apps using Shiny
+            * Data analysis and manipulation
+              * RStudio
+              * Shiny*
+            * Many packages for data analysis such as purr, pelt, peshape. 
+          * Latex and Markdown for writing and formatting documents
+        * Non relational databases:
+          * MongoDB
+        * Bioinformatics data representation
+          * bcl
+          * fasta / fastq
+          * bam / cram
+          * vcf
+        * Bioinformatics data processing manipulation
+          * Multiple command tools to aid our propietary pipeline
+
+      I also developed and matured other more broad capabilities 
+        * I learned a lot about genomics and the standards for handling the digital data associated with it.
+        * Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
+        * I had to read and understand the documentation of the tools we used to process the data.
+        * I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying. 
+    time: 2021-Now
+  - content: >
       #### Full Stack Web Developer 
       
 
