@@ -5,7 +5,7 @@ title: >
   ## My Expertises
 
   My dev time has been filled with academy studies, industry work and 
-  miscellaneous personal interests. 
+  miscellaneous personal interests.
 
 tab1Name: Education
 tab2Name: Experience
@@ -37,9 +37,9 @@ education:
 experience:
   - content: >
       #### Data Science member
-      
+
       I had the incredible opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics at [Héritas](https://heritas.com.ar/), a genetics based presicion medicine company. 
-      
+
 
       Despite the name of the area and the specialties among the team, our responsibilites were many and diverse. We were like a swiss army knife, all tasks related to informatics were in our hands. That's why we were able to work with a lot of different technologies and languages such as: 
         * Dev Ops:
@@ -76,11 +76,11 @@ experience:
         * I learned a lot about genomics and the standards for handling the digital data associated with it.
         * Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
         * I had to read and understand the documentation of the tools we used to process the data.
-        * I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying. 
+        * I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying.
     time: 2021-Now
   - content: >
       #### Full Stack Web Developer 
-      
+
 
       I was able to keep up with a team of Senior Developers with over 10 years of experience at 
       [SZICOM](https://www.szicom.com.ar/).
@@ -111,7 +111,7 @@ experience:
     time: 2019-2020
   - content: >
       #### Educational Robotics Teacher
-      
+
       [Taller Big Bang](https://www.facebook.com/bigbangtaller/) 
       was a science institute for children where we taught 3 courses:
         * Educational robotics with [LEGO Education](https://education.lego.com/en-us/)
@@ -127,6 +127,10 @@ experience:
     time: 2017-2017
 
 extras:
+  - content: >
+      #### Self Learner
+
+      I have a passion for learning new things and I'm constantly learning new things. I don't have the time to journal all of them, so be sure to check out my [GitHub](https://github.com/AgustinRamiroDiaz) if you are interested in seeing what I've been working on lately.
   - content: >
       #### QWorld Global Quantum Programming Workshop | [QBronze](https://qworld.lu.lv/index.php/workshop-bronze/)
 
@@ -150,5 +154,3 @@ extras:
 
       Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine with C#.
       I followed tutorials from [Brackeys](https://brackeys.com/) and [Unity Learn](https://learn.unity.com/).
-
-
