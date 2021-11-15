@@ -14,26 +14,6 @@ tab1Target: education
 tab2Target: experience
 tab3Target: extras
 
-education:
-  - content: >
-      #### Bachelor in Computer Science
-
-      Currently attending 4th year
-
-
-      FCEIA - UNR
-    time: 2018-Today
-  - content: >
-      #### Bachelor in Exact Sciences
-
-      FCEIA - UNR
-    time: 2018-2020
-  - content: >
-      #### Construction Technician
-
-      Instituto Politécnico Superior, General San Martín
-    time: 2012-2017
-
 experience:
   - content: >
       #### Data Science member
@@ -126,11 +106,31 @@ experience:
       BBZ
     time: 2017-2017
 
+education:
+  - content: >
+      #### Bachelor in Computer Science
+
+      Currently attending 4th year
+
+
+      FCEIA - UNR
+    time: 2018-Today
+  - content: >
+      #### Bachelor in Exact Sciences
+
+      FCEIA - UNR
+    time: 2018-2020
+  - content: >
+      #### Construction Technician
+
+      Instituto Politécnico Superior, General San Martín
+    time: 2012-2017
+
 extras:
   - content: >
       #### Self Learner
 
-      I have a passion for learning new things and I'm constantly learning new things. I don't have the time to journal all of them, so be sure to check out my [GitHub](https://github.com/AgustinRamiroDiaz) if you are interested in seeing what I've been working on lately.
+      I have a passion for learning and I'm constantly studying and trying out new stuff. I don't have the time to journal all of them, so be sure to check out my [GitHub](https://github.com/AgustinRamiroDiaz) if you are interested in seeing what I've been working on lately.
   - content: >
       #### QWorld Global Quantum Programming Workshop | [QBronze](https://qworld.lu.lv/index.php/workshop-bronze/)
 
