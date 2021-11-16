@@ -31,28 +31,19 @@ experience:
           * Python 
             * API connections 
               * We took advantage of JIRA's issues workflow and took it to its limits to manage our process workflow. 
-            * Data analysis and manipulation
-              * Pandas
-              * Numpy
-          * R 
-            * Along with its web framework, Shiny
+            * Data analysis and manipulation with Pandas and Numpy
+          * R along with its web framework, Shiny
               * We built all our main web apps using Shiny
-            * Data analysis and manipulation
-              * RStudio
-              * Shiny*
-            * Many packages for data analysis such as purr, pelt, peshape. 
+              * Many packages for data analysis such as purr, pelt, peshape. 
           * Latex and Markdown for writing and formatting documents
         * Non relational databases:
           * MongoDB
         * Bioinformatics data representation
-          * bcl
-          * fasta / fastq
-          * bam / cram
-          * vcf
+          * bcl, fasta/fastq, bam/cram, vcf
         * Bioinformatics data processing manipulation
           * Multiple command tools to aid our propietary pipeline
 
-      I also developed and matured other more broad capabilities 
+      I also developed and matured other more broad capabilities:
         * I learned a lot about genomics and the standards for handling the digital data associated with it.
         * Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
         * I had to read and understand the documentation of the tools we used to process the data.
