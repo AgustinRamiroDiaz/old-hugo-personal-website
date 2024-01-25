@@ -1,58 +1,82 @@
-{{ with .Site.Data.resumeSection }}
-{{ if .enable }}
+{{ with .Site.Data.resumeSection }} {{ if .enable }}
 <section class="section resume" id="resume">
-    <div class="resume__background"></div>
-    <div class="container" style="max-width: 80%;">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="resume__heading">
-                    <div class="text-light">
-                        <span class="top-title pre-line">{{ .topTitle }}</span>
-                        {{ .title | markdownify }}
-                    </div>
+  <div class="resume__background"></div>
+  <div class="container" style="max-width: 80%">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="resume__heading">
+          <div class="text-light">
+            <span class="top-title pre-line">{{ .topTitle }}</span>
+            {{ .title | markdownify }}
+          </div>
 
-                    <div class="btn-group nav mt-5">
-                        <a href="#{{.tab1Target}}" class="btn btn-primary active" data-toggle="tab">{{ .tab1Name }}</a>
-                        <a href="#{{.tab2Target}}" class="btn btn-primary" data-toggle="tab">{{ .tab2Name }}</a>
-                        <a href="#{{.tab3Target}}" class="btn btn-primary" data-toggle="tab">{{ .tab3Name }}</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="tab-content ">
-                    <div class="resume__education tab-pane active" id="{{.tab1Target}}">
-                        {{ $Section := .experience }}
-                        {{ range $Section }}
-                        <div class="resume__education_item">
-                            <span class="pre-line text-primary"> {{ .time }} </span>
-                            {{ .content | markdownify }}
-                        </div>
-                        {{ end }}
+          <div class="btn-group nav mt-5">
+            {{ range $index, $tabs := .tabs }}
+            {{ if $index }}
+            <a
+            href="#{{.name}}"
+            class="btn btn-primary"
+            data-toggle="tab"
+            >{{ .name }}</a
+          >
+            {{ else }}
+            <a
+              href="#{{.name}}"
+              class="btn btn-primary active"
+              data-toggle="tab"
+              >{{ .name }}</a
+            >
+            {{ end }}
+            
 
-                    </div>
-
-                    <div class="resume__education tab-pane" id="{{.tab2Target}}">
-                        {{ $Section := .education }}
-                        {{ range $Section }}
-                        <div class="resume__education_item">
-                            <span class="pre-line text-primary"> {{ .time }} </span>
-                            {{ .content | markdownify }}
-                        </div>
-                        {{ end }}
-                    </div>
-
-                    <div class="resume__education tab-pane" id="{{.tab3Target}}">
-                        {{ $Section := .extras }}
-                        {{ range $Section }}
-                        <div class="resume__education_item">
-                            {{ .content | markdownify }}
-                        </div>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
+            {{ end }}
+            <!-- 
+            <a href="#{{.tab2Target}}" class="btn btn-primary" data-toggle="tab"
+              >{{ .tab2Name }}</a
+            >
+            <a href="#{{.tab3Target}}" class="btn btn-primary" data-toggle="tab"
+              >{{ .tab3Name }}</a
+            > -->
+          </div>
         </div>
+      </div>
+      <div class="col-lg-8">
+        <div class="tab-content">
+          {{ range $index, $tabs := .tabs }}
+        {{ if $index }}
+        <div class="resume__education tab-pane" id="{{.name}}">
+        {{ else }}
+        <div class="resume__education tab-pane active" id="{{.name}}">
+        {{ end }}
+            
+            {{ range $Section := .contents }}
+            <div class="resume__education_item">
+              <span class="pre-line text-primary"> {{ .time }} </span>
+              {{ .content | markdownify }}
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+          <!-- 
+          <div class="resume__education tab-pane" id="{{.tab2Target}}">
+            {{ $Section := .education }} {{ range $Section }}
+            <div class="resume__education_item">
+              <span class="pre-line text-primary"> {{ .time }} </span>
+              {{ .content | markdownify }}
+            </div>
+            {{ end }}
+          </div>
+
+          <div class="resume__education tab-pane" id="{{.tab3Target}}">
+            {{ $Section := .extras }} {{ range $Section }}
+            <div class="resume__education_item">
+              {{ .content | markdownify }}
+            </div>
+            {{ end }}
+          </div>-->
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
