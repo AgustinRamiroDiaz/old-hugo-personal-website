@@ -11,14 +11,14 @@ service:
 
       I started web development working with [Angular](https://angular.io/) (Typescript, JavaScript, HTML and CSS) 
       developing the Distribution Management System for Naturgy (MX) at SZICOM.
-      
-      
+
+
       Then I had an idea for a [game](https://agustinramirodiaz.github.io/Guess-Color-Names/) about guessing 
       color names which I developed using vanilla JavaScript, HTML and CSS (with the help of [Bootstrap](https://getbootstrap.com/)).
       Once it was finished I played with it incorporating a bit of [Vue](https://vuejs.org/) to the project.
 
 
-      At the time, my latest project is this personal website. I'm following the [Jamstack](https://jamstack.org/) architecture, 
+      For this personal website. I'm following the [Jamstack](https://jamstack.org/) architecture, 
       using [GitHub](https://github.com/) as the [CDN](https://jamstack.org/glossary/cdn/) and 
       [Hugo](https://gohugo.io/) as the [SSG](https://jamstack.org/glossary/ssg/).
     image: images/service/web.svg
@@ -42,7 +42,7 @@ service:
       I've worked with [CI/CD](https://en.wikipedia.org/wiki/CI/CD) pipelines
       in an [agile](https://en.wikipedia.org/wiki/Agile_software_development) model working enviroment.
 
-      
+
       I recently started learning GitHub Actions, which I am currently using
       to automatically deploy this static web site.
     image: images/service/branding.svg
