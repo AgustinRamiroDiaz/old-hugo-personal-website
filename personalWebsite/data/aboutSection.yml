@@ -13,6 +13,9 @@ content: >
   I'm really into problem solving and even more if it's from a scientific field. I always
   do my best to research and learn different topics, adapting to new enviroments.
 
-button2Name: Download CV (a bit outdated)
+button1Name: Github
+button1Target: https://github.com/AgustinRamiroDiaz
+
+button2Name: CV (a bit outdated)
 button2Target: Agustín Ramiro Díaz English.pdf
 image: "images/about/agustin_with_camera.jpg"
