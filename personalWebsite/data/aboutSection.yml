@@ -4,7 +4,8 @@ topTitle: About
 title: >
   ## About me
 
-  I'm a 22 year old computer science student eager to learn.
+  I'm a software developer eager to learn.
+  In my free time I do Acrobatics and Acroyoga
 content: >
   ### I solve problems through code
 
@@ -15,4 +16,3 @@ content: >
 button2Name: Download CV (a bit outdated)
 button2Target: Agustín Ramiro Díaz English.pdf
 image: "images/about/agustin_with_camera.jpg"
-  
