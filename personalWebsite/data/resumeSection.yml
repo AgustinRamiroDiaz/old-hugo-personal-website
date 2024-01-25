@@ -7,15 +7,8 @@ title: >
   My dev time has been filled with academy studies, industry work and 
   miscellaneous personal interests.
 
-tab1Name: Experience
-tab2Name: Education
-tab3Name: Extras
-tab1Target: experience
-tab2Target: education
-tab3Target: extras
-
 tabs:
-  - name: experience
+  - name: Okteto
     contents:
       - time: 2022-2024
         content: >
@@ -45,6 +38,9 @@ tabs:
 
 
           I've also became comfortable working with `Google Cloud Platform` services (where we had all our infra) and got to explore a bit of `AWS` and `Azure`.
+
+  - name: Heritas
+    contents:
       - time: 2021-2022
         content: >
           #### Data Science member at [Héritas](https://heritas.com.ar/)
@@ -78,6 +74,8 @@ tabs:
             * Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
             * I had to read and understand the documentation of the tools we used to process the data.
             * I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying.
+  - name: SziCom
+    contents:
       - content: >
           #### Full Stack Web Developer 
 
@@ -109,6 +107,8 @@ tabs:
               * Robot Framework
 
         time: 2019-2020
+  - name: Non-tech
+    contents:
       - content: >
           #### Educational Robotics Teacher
 
@@ -125,7 +125,7 @@ tabs:
 
           BBZ
         time: 2017-2017
-  - name: education
+  - name: Education
     contents:
       - content: >
           #### Bachelor in Computer Science
@@ -146,7 +146,7 @@ tabs:
           Instituto Politécnico Superior, General San Martín
         time: 2012-2017
 
-  - name: extras
+  - name: Extras
     contents:
       - content: >
           #### Self Learner
