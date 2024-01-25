@@ -7,22 +7,51 @@ title: >
   My dev time has been filled with academy studies, industry work and 
   miscellaneous personal interests.
 
-tab1Name: Education
-tab2Name: Experience
+tab1Name: Experience
+tab2Name: Education
 tab3Name: Extras
-tab1Target: education
-tab2Target: experience
+tab1Target: experience
+tab2Target: education
 tab3Target: extras
 
 experience:
-  - content: >
-      #### Data Science member
+  - time: 2022-2024
+    content: >
+      #### Backend Software Developer at [Okteto](https://www.okteto.com/)
 
-      I had the incredible opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics at [Héritas](https://heritas.com.ar/), a genetics based presicion medicine company. 
+      I've worked on the backend team, developing a multi-service Helm chart using `Golang` and `Kubernetes`, and a CLI tool for interacting with the Okteto Platform.
+
+
+      Our Backend API was made using GraphQL technology,
+
+
+      In this time, I've learned a lot about Kubernetes in depth, by managing and creating resources such as CRDs, Operators, Controllers and Webhooks. 
+
+
+      I've gotten to know better the container ecosystem by using `Docker` and `containerd` while working with `Buildkit` and `Kubernetes`.
+
+
+      I've also become very proficient in Golang, and I've got to know multiple packages such as `client-go` and `cobra`.
+
+
+      #### Platform Infrastructure at [Okteto](https://www.okteto.com/)
+
+      Due to the demand of the team, I moved to the infrastructure team to help with the development of the SaaS platform. 
+
+
+      We used `Terraform` and `Terraform Cloud` with a lot of custom pipelines done with GitOps.
+
+
+      I've also became comfortable working with `Google Cloud Platform` services (where we had all our infra) and got to explore a bit of `AWS` and `Azure`.
+
+  - content: >
+      #### Data Science member at [Héritas](https://heritas.com.ar/)
+
+      I had the incredible opportunity to work with a small and amazing team of data scientists, computer scientists and bioinformatics in a genetics based presicion medicine company. 
 
 
       Despite the name of the area and the specialties among the team, our responsibilites were many and diverse. We were like a swiss army knife, all tasks related to informatics were in our hands. That's why we were able to work with a lot of different technologies and languages such as: 
-        * Dev Ops:
+        * Sys Admin:
           * Docker
           * Server management (of our own servers with CentOS and Ubuntu)
           * Third party cloud service providers (Digital Ocean, Google Cloud)
@@ -48,7 +77,7 @@ experience:
         * Since our area was in the middle of the production process, I had to interact with different teams to understand the different processes and the different roles they had.
         * I had to read and understand the documentation of the tools we used to process the data.
         * I was in charge of the evolutionary maintainance of our apps, which was a complex task that nourished me in the process of learning and understanding. This sparked my interest in the micro-services architecture pattern which I'm still studying.
-    time: 2021-Now
+    time: 2021-2022
   - content: >
       #### Full Stack Web Developer 
 
@@ -101,11 +130,11 @@ education:
   - content: >
       #### Bachelor in Computer Science
 
-      Currently attending 4th year
+      70% of the career completed
 
 
       FCEIA - UNR
-    time: 2018-Today
+    time: 2018-2022
   - content: >
       #### Bachelor in Exact Sciences
 
@@ -143,5 +172,5 @@ extras:
   - content: >
       #### Unity 3D
 
-      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine with C#.
+      Created a simple infinite runner game using the [Unity3d](https://unity.com/) engine with `C#`.
       I followed tutorials from [Brackeys](https://brackeys.com/) and [Unity Learn](https://learn.unity.com/).
