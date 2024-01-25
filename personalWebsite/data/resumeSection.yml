@@ -10,7 +10,7 @@ title: >
 tabs:
   - name: Okteto
     contents:
-      - time: 2022-2024
+      - time: 2022-2023
         content: >
           #### Backend Software Developer at [Okteto](https://www.okteto.com/)
 
@@ -28,7 +28,8 @@ tabs:
 
           I've also become very proficient in Golang, and I've got to know multiple packages such as `client-go` and `cobra`.
 
-
+      - time: 2023-2024
+        content: >
           #### Platform Infrastructure at [Okteto](https://www.okteto.com/)
 
           Due to the demand of the team, I moved to the infrastructure team to help with the development of the SaaS platform. 
