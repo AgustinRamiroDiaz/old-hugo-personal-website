@@ -8,6 +8,16 @@ title: >
   miscellaneous personal interests.
 
 tabs:
+  - name: Freelance
+    contents:
+      - time: 2023-2023
+        content: >
+          #### Containerization and migration to AWS at [SZICOM](https://www.szicom.com.ar/)
+
+          After gaining a lot of Cloud experience, I did a job for SZICOM to help them with the migration of their infrastructure to AWS. 
+
+          This involved primarily dockerization of the application, and then AWS resources like CodeBuild, CodeDeploy, CodePipeline, ECS, ECR.
+
   - name: Okteto
     contents:
       - time: 2022-2023
