@@ -123,7 +123,7 @@ CV (a bit outdated) </a>
 </div>
 </section>
 <section class="section resume" id=resume>
-<div class=resume__background></div>
+<div class=resume__background id=resume-tab-content></div>
 <div class=container style=max-width:80%>
 <div class=row>
 <div class=col-lg-4>
@@ -135,18 +135,18 @@ CV (a bit outdated) </a>
 </div>
 <div class="btn-group nav mt-5">
 <a href=#Freelance class="btn btn-primary active" data-toggle=tab>Freelance</a>
-<a href=#Okteto class="btn btn-primary" data-toggle=tab>Okteto</a>
-<a href=#Heritas class="btn btn-primary" data-toggle=tab>Heritas</a>
-<a href=#SziCom class="btn btn-primary" data-toggle=tab>SziCom</a>
-<a href=#Non-tech class="btn btn-primary" data-toggle=tab>Non-tech</a>
-<a href=#Education class="btn btn-primary" data-toggle=tab>Education</a>
-<a href=#Extras class="btn btn-primary" data-toggle=tab>Extras</a>
+<a href=#Okteto class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">Okteto</a>
+<a href=#Heritas class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">Heritas</a>
+<a href=#SziCom class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">SziCom</a>
+<a href=#Non-tech class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">Non-tech</a>
+<a href=#Education class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">Education</a>
+<a href=#Extras class="btn btn-primary" data-toggle=tab onclick="scrollToTarget('resume-tab-content')">Extras</a>
 </div>
 </div>
 </div>
 <div class=col-lg-8>
 <div class=tab-content>
-<div class="resume__education tab-pane active" id=Freelance>
+<div class="resume__education tab-pane show active" id=Freelance>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2023-2023 </span>
 <h4 id=containerization-and-migration-to-aws-at-szicomhttpswwwszicomcomar>Containerization and migration to AWS at <a href=https://www.szicom.com.ar/>SZICOM</a></h4>
@@ -154,7 +154,7 @@ CV (a bit outdated) </a>
 This involved primarily dockerization of the application, and then AWS resources like CodeBuild, CodeDeploy, CodePipeline, ECS, ECR.
 </div>
 </div>
-<div class="resume__education tab-pane" id=Okteto>
+<div class="resume__education tab-pane show" id=Okteto>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2022-2023 </span>
 <h4 id=backend-software-developer-at-oktetohttpswwwoktetocom>Backend Software Developer at <a href=https://www.okteto.com/>Okteto</a></h4>
@@ -172,7 +172,7 @@ This involved primarily dockerization of the application, and then AWS resources
 <p>I&rsquo;ve also became comfortable working with <code>Google Cloud Platform</code> services (where we had all our infra) and got to explore a bit of <code>AWS</code> and <code>Azure</code>.</p>
 </div>
 </div>
-<div class="resume__education tab-pane" id=Heritas>
+<div class="resume__education tab-pane show" id=Heritas>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2021-2022 </span>
 <h4 id=data-science-member-at-héritashttpsheritascomar>Data Science member at <a href=https://heritas.com.ar/>Héritas</a></h4>
@@ -229,7 +229,7 @@ This involved primarily dockerization of the application, and then AWS resources
 </ul>
 </div>
 </div>
-<div class="resume__education tab-pane" id=SziCom>
+<div class="resume__education tab-pane show" id=SziCom>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2019-2020 </span>
 <h4 id=full-stack-web-developer>Full Stack Web Developer</h4>
@@ -269,7 +269,7 @@ This involved primarily dockerization of the application, and then AWS resources
 </ul>
 </div>
 </div>
-<div class="resume__education tab-pane" id=Non-tech>
+<div class="resume__education tab-pane show" id=Non-tech>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2018-2018 </span>
 <h4 id=educational-robotics-teacher>Educational Robotics Teacher</h4>
@@ -290,7 +290,7 @@ This involved primarily dockerization of the application, and then AWS resources
 <p>BBZ
 </div>
 </div>
-<div class="resume__education tab-pane" id=Education>
+<div class="resume__education tab-pane show" id=Education>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> 2018-2022 </span>
 <h4 id=bachelor-in-computer-science>Bachelor in Computer Science</h4>
@@ -308,7 +308,7 @@ This involved primarily dockerization of the application, and then AWS resources
 <p>Instituto Politécnico Superior, General San Martín
 </div>
 </div>
-<div class="resume__education tab-pane" id=Extras>
+<div class="resume__education tab-pane show" id=Extras>
 <div class=resume__education_item>
 <span class="pre-line text-primary"> </span>
 <h4 id=self-learner>Self Learner</h4>
@@ -343,6 +343,7 @@ The Bronze has five main sections</p>
 </div>
 </div>
 </section>
+<script>function scrollToTarget(a){var b=document.getElementById(a);b.scrollIntoView({behavior:'smooth'})}</script>
 <section class="section service" id=service>
 <div class=service__background><svg viewBox="0 0 1283 1126"><path fill="#f1f6f9" d="M1e2.0h1183v1126l-1183-80A1e2 1e2.0 010 946V1e2A1e2 1e2.0 011e2.0z" data-name="Path 1369"/></svg>
 </div>
