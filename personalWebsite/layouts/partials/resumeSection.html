@@ -1,6 +1,6 @@
 {{ with .Site.Data.resumeSection }} {{ if .enable }}
 <section class="section resume" id="resume">
-  <div class="resume__background"></div>
+  <div class="resume__background" id="resume-tab-content"></div>
   <div class="container" style="max-width: 80%">
     <div class="row">
       <div class="col-lg-4">
@@ -17,6 +17,7 @@
             href="#{{.name}}"
             class="btn btn-primary"
             data-toggle="tab"
+            onclick="scrollToTarget('resume-tab-content')"
             >{{ .name }}</a
           >
             {{ else }}
@@ -44,9 +45,9 @@
         <div class="tab-content">
           {{ range $index, $tabs := .tabs }}
         {{ if $index }}
-        <div class="resume__education tab-pane" id="{{.name}}">
+        <div class="resume__education tab-pane show" id="{{.name}}">
         {{ else }}
-        <div class="resume__education tab-pane active" id="{{.name}}">
+        <div class="resume__education tab-pane show active" id="{{.name}}">
         {{ end }}
             
             {{ range $Section := .contents }}
@@ -79,4 +80,14 @@
     </div>
   </div>
 </section>
+
+<script>
+  function scrollToTarget(target) {
+    // Get a reference to the target div
+    var targetDiv = document.getElementById(target);
+    
+    // Scroll to the target div
+    targetDiv.scrollIntoView({ behavior: 'smooth'});
+  }
+</script>
 {{ end }} {{ end }}
