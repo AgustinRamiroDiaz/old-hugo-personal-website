@@ -27,9 +27,6 @@ tabs:
           I've worked on the backend team, developing a multi-service Helm chart using `Golang` and `Kubernetes`, and a CLI tool for interacting with the Okteto Platform.
 
 
-          Our Backend API was made using GraphQL technology,
-
-
           In this time, I've learned a lot about Kubernetes in depth, by managing and creating resources such as CRDs, Operators, Controllers and Webhooks. 
 
 
