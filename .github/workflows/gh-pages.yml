@@ -26,8 +26,15 @@ jobs:
           hugo-version: "0.92.2"
           extended: true
 
+      - name: get url
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq '.html_url')
+          echo "url=$url" >> $GITHUB_ENV
+
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL ${{ env.url }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
